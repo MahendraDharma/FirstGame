@@ -218,7 +218,7 @@ GEM["Extra Pet Slot"] = function(k)
 	local disc = k:cyl("Token", 0.15, 1.6, face * ANG(rad(90), 0, 0), "#4E3A2A", M.Wood)
 	k:ring("RuneCircle", face * ANG(rad(90), 0, 0) * CF(0, -0.09, 0), 0.68, 0.06, 16, Kit.col("#3CE6F0"), M.Neon)
 	k:ball("Pad", V(0.5, 0.42, 0.05), face * CF(0, -0.15, -0.09), "#FFD86B", M.Neon)
-	for i, p in ipairs({{-0.3, 0.12}, {-0.11, 0.3}, {0.11, 0.3}, {0.3, 0.12}}) do
+	for _, p in ipairs({{-0.3, 0.12}, {-0.11, 0.3}, {0.11, 0.3}, {0.3, 0.12}}) do
 		k:ball("Toe", V(0.17, 0.2, 0.05), face * CF(p[1], p[2], -0.09), "#FFD86B", M.Neon)
 	end
 	k:block("Stand", V(0.6, 0.2, 0.4), CF(0, 0.1, 0), "#4E3A2A", M.Wood)

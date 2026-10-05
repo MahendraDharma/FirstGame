@@ -129,7 +129,7 @@ function Kit:sigil(at, size)
 	self:block("Sigil", Vector3.new(size * 0.35, size * 0.35, size * 0.06), cf * CFrame.Angles(0, 0, math.rad(45)), "#3CE6F0", M.Neon)
 end
 
--- Ring of small blocks (bands, halos, glow rings); ring lies in the cf's XZ plane
+-- Ring of small blocks (bands, halos); ring lies in the cf's XZ plane
 function Kit:ring(name, cf, radius, thickness, count, color, mat, transparency)
 	local parts = {}
 	local segLen = 2 * math.pi * radius / count * 1.1

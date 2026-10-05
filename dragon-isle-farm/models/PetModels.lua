@@ -39,7 +39,7 @@ end
 
 local HOOVES = {V(-0.33, -1.15, -0.5), V(0.33, -1.15, -0.5), V(-0.33, -1.15, 0.5), V(0.33, -1.15, 0.5)}
 
--- feathered wing: n layered feathers fanning upward from the shoulder
+-- feathered wing: layered feathers fanning upward from the shoulder
 local function featherWing(k, s, colors, mat, transparency, big)
 	big = big or 1
 	for j = 1, #colors do
